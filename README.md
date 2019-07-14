@@ -1,53 +1,53 @@
-# win_py_TalkSpeak
+# win_py_TextSpeak
 text speaking by python
 
-OpenJtalk‚ğ—˜—p‚µ‚½ƒeƒLƒXƒg“Ç‚İã‚°ƒvƒƒOƒ‰ƒ€
+OpenJtalkã‚’åˆ©ç”¨ã—ãŸãƒ†ã‚­ã‚¹ãƒˆèª­ã¿ä¸Šã’ãƒ—ãƒ­ã‚°ãƒ©ãƒ 
 
 hts_engine_API-1.10.tar.gz
 open_jtalk-1.10.tar.gz
 open_jtalk_dic_shift_jis-1.10.tar.gz
 hts_voice_nitech_jp_atr503_m001-1.05.tar.gz
-‚ğƒ_ƒEƒ“ƒ[ƒh
+ã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰
 
-VisualStudio‚ÌƒRƒ}ƒ“ƒhƒvƒƒ“ƒvƒg‚Å
-hts_engin_API-1.10ƒtƒHƒ‹ƒ_‚ÉˆÚ“®‚µ
+VisualStudioã®ã‚³ãƒãƒ³ãƒ‰ãƒ—ãƒ­ãƒ³ãƒ—ãƒˆã§
+hts_engin_API-1.10ãƒ•ã‚©ãƒ«ãƒ€ã«ç§»å‹•ã—
 nmake -f Makefile.mak
 nmake -f Makefile.mak install
 
 c:\hts_egine_API
-‚ªì¬‚³‚ê‚é
+ãŒä½œæˆã•ã‚Œã‚‹
 
-VisualStudio‚ÌƒRƒ}ƒ“ƒhƒvƒƒ“ƒvƒg‚Å
-open_jtalk-1.11ƒtƒHƒ‹ƒ_‚ÉˆÚ“®‚µ
+VisualStudioã®ã‚³ãƒãƒ³ãƒ‰ãƒ—ãƒ­ãƒ³ãƒ—ãƒˆã§
+open_jtalk-1.11ãƒ•ã‚©ãƒ«ãƒ€ã«ç§»å‹•ã—
 nmake -f Makefile.mak
 nmake -f Makefile.mak install
 
-ƒGƒ‰[‚ªo‚é‚¯‚Çopen_jtalk.exe‚ª‚Å‚«‚ê‚Î
-‚Æ‚è‚ ‚¦‚¸OK
+ã‚¨ãƒ©ãƒ¼ãŒå‡ºã‚‹ã‘ã©open_jtalk.exeãŒã§ãã‚Œã°
+ã¨ã‚Šã‚ãˆãšOK
 
 c:\opej_jtalk
-‚ªì¬‚³‚ê‚é
+ãŒä½œæˆã•ã‚Œã‚‹
 
 open_jtalk_dic_shift_jis-1.11
-‚Ì–¼Ì‚ğdic‚É•ÏŠ·‚µ
-c:\opej_jtalk\bin‚ÉƒRƒs[‚·‚é
+ã®åç§°ã‚’dicã«å¤‰æ›ã—
+c:\opej_jtalk\binã«ã‚³ãƒ”ãƒ¼ã™ã‚‹
 
 nitech_jp_atr503_m001.htsvoice
-‚ğ
-c:\opej_jtalk\bin‚ÉƒRƒs[‚·‚é
+ã‚’
+c:\opej_jtalk\binã«ã‚³ãƒ”ãƒ¼ã™ã‚‹
 
-‡¬‚µ‚½‚¢ƒeƒLƒXƒg‚ğvoice.txt‚É‘‚«‚Ş
-c:\opej_jtalk\bin‚ÉƒRƒs[‚·‚é
+åˆæˆã—ãŸã„ãƒ†ã‚­ã‚¹ãƒˆã‚’voice.txtã«æ›¸ãè¾¼ã‚€
+c:\opej_jtalk\binã«ã‚³ãƒ”ãƒ¼ã™ã‚‹
 
-c:\opej_jtalk\bin‚Å
+c:\opej_jtalk\binã§
 open_jtalk.exe -m nitech_jp_atr503_m001.htsvoice -x dic -ow output.wav voice.txt
-‚ğÀs
+ã‚’å®Ÿè¡Œ
 
-play.exe‚ğ
-c:\opej_jtalk\bin‚ÉƒRƒs[‚·‚é
+play.exeã‚’
+c:\opej_jtalk\binã«ã‚³ãƒ”ãƒ¼ã™ã‚‹
 
 play output.wav
-‚ğÀs
+ã‚’å®Ÿè¡Œ
 
-ã‹L‚ğ‘g‚İ‡‚í‚¹‚½ƒvƒƒOƒ‰ƒ€‚ğì¬
+ä¸Šè¨˜ã‚’çµ„ã¿åˆã‚ã›ãŸãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚’ä½œæˆ
 ojtalk.py
