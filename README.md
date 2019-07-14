@@ -1,5 +1,5 @@
 # win_py_TalkSpeak
-talking speaking by python
+text speaking by python
 
 OpenJtalkを利用したテキスト読み上げプログラム
 
